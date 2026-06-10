@@ -20,13 +20,13 @@ I contributed to the collaborative development of this project through experimen
 ## Repository Structure
 
 ```text
-src/wild_animal_project/   Core training and evaluation code
-notebooks/                 Exploratory analysis and experiments
-data/                      Dataset instructions and placeholders
-models/                    Saved model documentation or artifacts
-reports/                   Results, notes, and experiment summaries
-tests/                     Basic validation and smoke tests
-assets/                    Images or visuals for documentation
+src/wildlife_trafficking_detection/   Core training and evaluation code
+notebooks/                            Exploratory analysis and experiments
+data/                                 Dataset instructions and placeholders
+models/                               Saved model documentation or artifacts
+reports/                              Results, notes, and experiment summaries
+assets/                               Images and visuals for documentation
+tests/                                Basic validation and smoke tests
 ```
 
 ## Setup
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ```bash
 conda env create -f environment.yml
-conda activate wild-animal-project
+conda activate wildlife-trafficking-detection
 ```
 
 ## Usage
@@ -51,30 +51,27 @@ conda activate wild-animal-project
 Train a baseline model:
 
 ```bash
-python -m src.wild_animal_project.train
+python -m src.wildlife_trafficking_detection.train
 ```
 
 Run evaluation:
 
 ```bash
-python -m src.wild_animal_project.evaluate
+python -m src.wildlife_trafficking_detection.evaluate
 ```
 
 ## Data
 
-The dataset is not included in this repository. Add dataset details, access instructions, folder structure, and any preprocessing requirements in `data/README.md`.
+The dataset is not included in this repository. Add dataset details, access instructions, expected folder layout, and preprocessing requirements in `data/README.md`.
 
 ## Results
 
-Add key results here, for example:
-- Baseline model and performance metric.
-- Best experiment summary.
-- Notes on model behavior and limitations.
+Results and experiment summaries will be added as the project documentation is expanded.
 
 ## Notes
 
-This repository is a portfolio-quality reconstruction/organization of a collaborative project. Sensitive or private project details should be excluded as needed.
+This repository is a portfolio-quality organization of collaborative project work. Sensitive or private project details should remain excluded as needed.
 
 ## License
 
-Choose an appropriate open-source license for the code and documentation in this repository.
+This project uses the MIT License.

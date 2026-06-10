@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wildlife-trafficking-detection"
+version = "0.1.0"
+description = "Portfolio-ready collaborative ML project for wildlife trafficking detection workflows"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "Chhatrapathi Sivaji Lakkimsetty"}
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "torch",
+  "torchvision",
+  "matplotlib"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
