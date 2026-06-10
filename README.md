@@ -1,14 +1,14 @@
-# Wild Animal Project
+# Wildlife Trafficking Detection
 
-A collaborative machine learning project focused on building a robust workflow for wild animal image understanding, including data preparation, model experimentation, training, and evaluation.
+A collaborative machine learning project focused on wildlife-related image understanding and detection workflows, including data preparation, experimentation, model training, and evaluation.
 
 ## Overview
 
-This repository presents a structured and professional version of work related to the Wild Animal Project. The goal is to organize the project into a clear portfolio-quality format that highlights methodology, experimentation, and engineering practices.
+This repository presents a structured, portfolio-ready version of work related to a collaborative wildlife trafficking detection project. It is organized to highlight reproducible experimentation, clear engineering practices, and professional documentation.
 
 ## My Contribution
 
-I contributed to the collaborative development of the project, including parts of the experimentation workflow, model development process, and technical implementation. This repository is intended to document the project in a clean and reproducible format for portfolio purposes.
+I contributed to the collaborative development of this project through experimentation, model development, and implementation support. This repository is intended as a clean public-facing representation of the project while avoiding disclosure of any sensitive or private details.
 
 ## Objectives
 
