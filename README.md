@@ -54,6 +54,7 @@ This pipeline cleans, transforms, and models the collected data for classificati
 - Multimodal learning using image, text, and tabular inputs together
 
 ## Model Design
+![Workflow](assets/Workflow.png)
 
 The project uses a multimodal model built from four main components:
 
@@ -80,6 +81,8 @@ The dataset is built from crawled online listings and includes fields such as:
 - Coordinates
 - Country
 - Image path
+![Features](assets/Features.png)
+
 
 To keep data collection manageable while still capturing a broad set of animal-related product listings, the project focuses on advertisement data collected from e-commerce sources such as eBay.
 
@@ -93,6 +96,8 @@ After cleaning and augmentation, the multimodal model was trained for 20 epochs 
 |----------|----------:|-------:|---------:|
 | Training | 99.07     | 99.53  | 99.58    |
 | Testing  | 85.11     | 93.02  | 94.08    |
+
+![Evaluation](assets/Model_evaluation.png)
 
 The model performed strongly on the testing dataset, especially in recall, showing that it was effective at identifying positive cases. Precision can likely be improved further with more data and additional tuning.
 
