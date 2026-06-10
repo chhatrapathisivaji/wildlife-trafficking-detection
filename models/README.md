@@ -1,5 +1,7 @@
 # Models
 
-Use this directory to document trained models, checkpoints, and model selection notes.
-
-Avoid committing large binary checkpoint files directly unless necessary.
+Use this folder for:
+- trained checkpoints,
+- exported weights,
+- experiment notes,
+- model cards.

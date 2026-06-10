@@ -1,3 +1,3 @@
 # Reports
 
-Use this directory for experiment summaries, evaluation notes, result snapshots, and reproducibility notes.
+Place project reports, writeups, and result summaries here.

@@ -1,10 +1,21 @@
 # Data
 
-This directory does not contain raw project data.
+The original dataset is not included in this repository.
 
-Document here:
-- dataset source,
-- access instructions,
-- expected folder layout,
-- preprocessing steps,
-- privacy, ethics, or licensing constraints.
+## Expected inputs
+
+The archived project notebooks indicate that the pipeline used:
+- A parquet file containing listing metadata and labels.
+- A CSV file variant for experimentation.
+- Images stored separately and referenced through `imagepath` or related fields.
+- Optional remote object storage access for images.
+
+## Suggested layout
+
+```text
+data/
+├── raw/
+├── interim/
+├── processed/
+└── external/
+```
