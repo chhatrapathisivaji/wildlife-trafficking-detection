@@ -4,27 +4,27 @@ This folder stores the visual materials used across the project documentation an
 
 ## Included Files
 
-- `Workflow.jpg`
-- `Features.jpg`
-- `Model_evaluation.jpg`
+- `Workflow.png`
+- `Features.png`
+- `Model_evaluation.png`
 
 ## Project Workflow
 
 High-level overview of the data collection, preprocessing, feature extraction, and modeling pipeline.
 
-![Project Workflow](./Workflow.jpg)
+![Project Workflow](./Workflow.png)
 
 ## Feature Overview
 
 Summary of the feature groups used in the wildlife trafficking detection workflow.
 
-![Feature Overview](./Features.jpg)
+![Feature Overview](./Features.png)
 
 ## Model Evaluation
 
 Visualization of evaluation results and model performance.
 
-![Model Evaluation](./Model_evaluation.jpg)
+![Model Evaluation](./Model_evaluation.png)
 
 ## Usage
 
